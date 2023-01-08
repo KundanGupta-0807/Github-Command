@@ -1,0 +1,44 @@
+git clone (line of created repository)
+git add . -> any changes made need to add in main branch 
+git status -> to check the status of overall changes 
+git commit -m "message" -> for the committing the code changes
+git push origin main -> for pushing the commited code into origin of main branch
+git init 
+
+ unable to auto-detect email address (got 'ADMIN@LAPTOP-17PDF78F.(none)')
+Above solution -> then your solution for this is
+$ git config --global user.email "kundangupta0807@gmail.com"
+
+after this we can push our code using command point -> 5
+
+created local text.file in local directories and want to save in repository created inside git hub (this is use for making local to github connection)
+command -> $ git remote add origin "repository _link"       (explaination - making the connection between home to shop)
+
+git clone link_repository  -> this will make the connection from shop to home
+
+$ touch test1.file    ->this will create test file in github repository 
+after this above command 
+use command 1. git add .
+			2. git commit -m "message"
+			3.git push origin main
+
+git pull origin main -> pulling the code from previous person commit changes maded
+gitbash is a terminal to run github
+
+
+changing from master branch to main branch
+command -> git branch -M main
+
+if we want to do whatever push or pull then first we have to use add command 
+git add .
+
+command  -> rm -rf .git  :- use for disconnect from the main branch
+
+
+
+Branch concept :
+1.git branch branch_name :- creating branch 
+2.git checkout branch_name :- changing from main brach to development branch
+3.git branch --list :- getting the list of branch
+4.git add . && git commit -m "committing the branch"
+5. git push origin branch_name_in_which_you_are_working
